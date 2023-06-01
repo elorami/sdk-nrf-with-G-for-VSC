@@ -237,7 +237,11 @@ manifest:
       revision: 908ffde6298a937c6549dbfa843a62caab26bfc5
       import:
         path-prefix: tools
-
+    - name: golioth
+      path: modules/lib/golioth
+      revision: main
+      url: https://github.com/golioth/golioth-zephyr-sdk.git
+      import: west-external.yml
 
   # West-related configuration for the nrf repository.
   self:
