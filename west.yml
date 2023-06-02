@@ -242,6 +242,19 @@ manifest:
       revision: main
       url: https://github.com/golioth/golioth-zephyr-sdk.git
       import: west-external.yml
+      
+    - name: partnername-plugin
+      path: modules/lib/partnername
+      revision: main
+      url: https://github.com/elorami/partnername-plugin-zephyr
+ 
+# import: west-external.yml
+
+    - name: partnername-samples
+      path: partnername
+      revision: main
+      url: https://github.com/elorami/partnername-samples-zephyr      
+      
 
   # West-related configuration for the nrf repository.
   self:
